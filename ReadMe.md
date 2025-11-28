@@ -1250,7 +1250,9 @@ Now, the /profile is authorized so we have to pass the Token which we got from t
 #### `Body`: Not needed as it is GET request
 #### `Header`: 
 In the Header section of the Postman under Authorization -> select Type : Bearer Token 
-Set The Token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzUwNTk5MDAwLCJleHAiOjE3NTA2MDI2MDB9.C_m4_xumwk0BjK51LmKmPHJbCvz4KetKeNSzc6LXBsY 
+
+Set The Token : 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzUwNTk5MDAwLCJleHAiOjE3NTA2MDI2MDB9.C_m4_xumwk0BjK51LmKmPHJbCvz4KetKeNSzc6LXBsY 
 
 
 #### `Response`: Server greets the user with name as 
