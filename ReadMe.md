@@ -198,7 +198,8 @@ the json objects
 
 ## 🧾 4.JSON-RW.js
 
-```javascriptconst http = require("http");
+```javascript
+const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
