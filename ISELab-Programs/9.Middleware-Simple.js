@@ -5,7 +5,7 @@ const app=express();
 app.use(express.json());
 
 app.use('/',(req,res,next)=>{
-    const logEntry=`[${req.method}${req.url}]`
+    const logEntry=`[${req.method}${req.url}]\n`
     console.log(logEntry.trim());
     fs.appendFileSync("requests.log",logEntry);
     next();
